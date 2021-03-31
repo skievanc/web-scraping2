@@ -7,6 +7,13 @@ Original file is located at
     https://colab.research.google.com/drive/1hLrPAzpqN-gSO5HUzVi9ijNK7Y8w2225
 """
 
+# author: Evan Collins
+# created: 3/31/21
+# IDCE302
+
+# A web scraper to search a practice book catalogue and print out the books with one star ratings.
+# The scraper accesses the URL, parses the text, selects and sorts out the one star titles, then prints the resulting list. 
+
 import requests
 import bs4
 
